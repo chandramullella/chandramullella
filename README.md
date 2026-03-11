@@ -8,7 +8,7 @@
 
 <p>I design and automate reliable cloud infrastructure, CI/CD pipelines, and scalable platform solutions using AWS, Terraform, Kubernetes, and modern DevOps practices.</p>
 
-<h2>🏅 Certifications & Badges</h2>
+<h1>🏅 Certifications & Badges</h1>
 
 <p>Showcase of my verified professional certifications and digital badges.</p>
 
@@ -19,7 +19,7 @@
 </p>
 
 
-<h3> 🚀 &nbsp;The Stack Behind My DevSecOps Journey</h3>
+<h2> 🚀 &nbsp;The Stack Behind My DevSecOps Journey</h2>
 
 ### Cloud & Platform
 ![AWS](https://img.shields.io/badge/Amazon%20Web%20Services-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
