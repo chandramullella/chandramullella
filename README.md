@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&height=300&color=gradient&text=Hi%20there-nl-I'm%20Chandrakanth%20Mullella&section=header&reversal=true&animation=twinkling&fontSize=40"/>
+  <img src="https://capsule-render.vercel.app/api?type=rounded&height=300&color=gradient&text=Hi%20there-nl-I'm%20Chandrakanth%20Mullella👋&section=header&reversal=true&animation=twinkling&fontSize=40"/>
 </p>
-
-<h1 align="center">Hi there, I'm Chandrakanth Mullella 👋</h1>
 
 <p align="center">
   DevOps/Site Reliability Engineer | Platform Engineering | AWS Cloud Engineer | Kubernetes Enthusiast | Infrastructure Automation
