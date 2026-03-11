@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&height=300&color=gradient&text=Hi%20there&section=header&reversal=true&animation=twinkling"/>
+  <img src="[https://capsule-render.vercel.app/api?type=rounded&height=300&color=gradient&text=Hi%20there&section=header&reversal=true&animation=twinkling](https://capsule-render.vercel.app/api?type=rounded&height=300&color=gradient&text=Hi%20there-nl-I'm%20Chandrakanth%20Mullella&section=header&reversal=true&animation=twinkling&fontSize=40)"/>
 </p>
 
 <h1 align="center">Hi there, I'm Chandrakanth Mullella 👋</h1>
