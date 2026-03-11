@@ -6,11 +6,9 @@
 
 <p>I design and automate reliable cloud infrastructure, CI/CD pipelines, and scalable platform solutions using AWS, Terraform, Kubernetes, and modern DevOps practices.</p>
 
-<h2 align="center">🏅 Certifications & Badges</h2>
+<h2 🏅 Certifications & Badges</h2>
 
-<p align="center">
-  Showcase of my verified professional certifications and digital badges.
-</p>
+<p Showcase of my verified professional certifications and digital badges. </p>
 
 <p align="center">
   <a href="https://www.credly.com/users/chandrakanth-mullella" target="_blank">
