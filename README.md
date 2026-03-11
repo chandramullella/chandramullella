@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&height=300&color=gradient&text=Hi%20there&section=header&reversal=true&animation=twinkling"/>
+</p>
+
 <h1 align="center">Hi there, I'm Chandrakanth Mullella 👋</h1>
 
 <p align="center">
