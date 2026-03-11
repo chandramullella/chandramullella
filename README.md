@@ -13,11 +13,12 @@
 
 <p Showcase of my verified professional certifications and digital badges. </p>
 
-<p align="center">
+<p>
   <a href="https://www.credly.com/users/chandrakanth-mullella" target="_blank">
     <img src="https://img.shields.io/badge/Credly-View%20My%20Profile-orange?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Profile" />
   </a>
 </p>
+>
 
 
 <h3> 🚀 &nbsp;The Stack Behind My DevSecOps Journey</h3>
