@@ -1,14 +1,17 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there-nl-I'm%20Chandrakanth%20Mullella👋&section=header&reversal=true&animation=twinkling&fontSize=40"/>
 </p>
+
 ---
 
 <p align="center">
   DevOps/Site Reliability Engineer | Platform Engineering | AWS Cloud Engineer | Kubernetes Enthusiast | Infrastructure Automation
 </p>
+
 ---
 
 <p>I design and automate reliable cloud infrastructure, CI/CD pipelines, and scalable platform solutions using AWS, Terraform, Kubernetes, and modern DevOps practices.</p>
+
 ---
 
 <h1>🏅 Certifications & Badges</h1>
@@ -20,6 +23,7 @@
     <img src="https://img.shields.io/badge/Credly-View%20My%20Profile-orange?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Profile" />
   </a>
 </p>
+
 ---
 
 <h2> 🚀 &nbsp;The Stack Behind My DevSecOps Journey</h2>
@@ -67,6 +71,7 @@
 ### AI Tools
 ![Cursor AI](https://img.shields.io/badge/Cursor%20AI-111111?style=for-the-badge&logoColor=white)
 ![Microsoft Copilot](https://img.shields.io/badge/Microsoft%20Copilot-000000?style=for-the-badge&logo=microsoft&logoColor=white)
+
 ---
 
 <h3>A Quick Look at Me!</h3>
@@ -122,7 +127,9 @@
   ]
 }
 ```
+
 ---
+
 <!--
 **chandramullella/chandramullella** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
