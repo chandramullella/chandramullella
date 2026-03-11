@@ -9,6 +9,7 @@
 </p>
 
 <h2> 🚀 &nbsp;The Stack Behind My DevSecOps Journey</h2>
+
 ### Cloud & Platform
 ![AWS](https://img.shields.io/badge/Amazon%20Web%20Services-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![ROSA](https://img.shields.io/badge/ROSA-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white)
