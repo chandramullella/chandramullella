@@ -8,7 +8,20 @@
   I design and automate reliable cloud infrastructure, CI/CD pipelines, and scalable platform solutions using AWS, Terraform, Kubernetes, and modern DevOps practices.
 </p>
 
-<h2> 🚀 &nbsp;The Stack Behind My DevSecOps Journey</h2>
+<h2 align="center">🏅 Certifications & Badges</h2>
+
+<p align="center">
+  Showcase of my verified professional certifications and digital badges.
+</p>
+
+<p align="center">
+  <a href="https://www.credly.com/users/chandrakanth-mullella" target="_blank">
+    <img src="https://img.shields.io/badge/Credly-View%20My%20Profile-orange?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Profile" />
+  </a>
+</p>
+
+
+<h3> 🚀 &nbsp;The Stack Behind My DevSecOps Journey</h3>
 
 ### Cloud & Platform
 ![AWS](https://img.shields.io/badge/Amazon%20Web%20Services-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
