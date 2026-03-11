@@ -26,30 +26,29 @@
     "Automation"
   ],
   "certifications": {
-  "aws": [
-    "AWS Certified Cloud Practitioner",
-    "AWS Certified SysOps Administrator - Associate (SOA)",
-    "AWS Certified Solutions Architect - Associate (SAA)"
-  ],
-  "kubernetes": [
-    "CKA: Certified Kubernetes Administrator",
-    "CKAD: Certified Kubernetes Application Developer",
-    "KCNA: Kubernetes and Cloud Native Associate",
-    "GitOps Fundamentals"
-  ],
-  "terraform": [
-    "HashiCorp Certified: Terraform Associate (002)",
-    "HashiCorp Certified: Terraform Associate (003)"
-  ],
-  "programming": [
-    "[PCEP-30-01] PCEP – Certified Python Programmer",
-    "Machine Learning Fundamentals Micro-Credential"
-  ],
-  "other": [
-    "LPI Linux LE-1 Certification"
-  ]
+    "aws": [
+      "AWS Certified Cloud Practitioner",
+      "AWS Certified SysOps Administrator - Associate (SOA)",
+      "AWS Certified Solutions Architect - Associate (SAA)"
+    ],
+    "kubernetes": [
+      "CKA: Certified Kubernetes Administrator",
+      "CKAD: Certified Kubernetes Application Developer",
+      "KCNA: Kubernetes and Cloud Native Associate",
+      "GitOps Fundamentals"
+    ],
+    "terraform": [
+      "HashiCorp Certified: Terraform Associate (002)",
+      "HashiCorp Certified: Terraform Associate (003)"
+    ],
+    "programming": [
+      "[PCEP-30-01] PCEP – Certified Python Programmer",
+      "Machine Learning Fundamentals Micro-Credential"
+    ],
+    "other": [
+      "LPI Linux LE-1 Certification"
+    ]
   },
-
   "goals2026": [
     "Certify as KubeAstronaut"
   ],
@@ -59,8 +58,7 @@
     "Coding"
   ]
 }
-
-
+```
 <!--
 **chandramullella/chandramullella** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
