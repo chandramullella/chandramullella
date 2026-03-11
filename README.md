@@ -6,6 +6,7 @@
 
 <p>I design and automate reliable cloud infrastructure, CI/CD pipelines, and scalable platform solutions using AWS, Terraform, Kubernetes, and modern DevOps practices.</p>
 
+
 <h2 🏅 Certifications & Badges</h2>
 
 <p Showcase of my verified professional certifications and digital badges. </p>
