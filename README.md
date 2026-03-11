@@ -65,6 +65,7 @@
 ![Cursor AI](https://img.shields.io/badge/Cursor%20AI-111111?style=for-the-badge&logoColor=white)
 ![Microsoft Copilot](https://img.shields.io/badge/Microsoft%20Copilot-000000?style=for-the-badge&logo=microsoft&logoColor=white)
 
+<h3>A Quick Look at Me!</h3>
 ```json
 {
   "name": "Chandrakanth Mullella",
