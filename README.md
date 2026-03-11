@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Chandrakanth Mullella 👋</h1>
 
 <p align="center">
-  DevOps Engineer | Site Reliability Engineer | Platform Engineering | AWS Cloud Engineer | Kubernetes Enthusiast | Infrastructure Automation
+  DevOps/Site Reliability Engineer | Platform Engineering | AWS Cloud Engineer | Kubernetes Enthusiast | Infrastructure Automation
 </p>
 
 <p align="center">
