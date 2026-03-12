@@ -73,8 +73,12 @@
 ![Microsoft Copilot](https://img.shields.io/badge/Microsoft%20Copilot-000000?style=for-the-badge&logo=microsoft&logoColor=white)
 
 ---
+<h3> My Github Status</h3>
+[![Chandrakanth Mullella's GitHub stats](https://github-readme-stats.vercel.app/api?username=chandramullella)](https://github.com/anuraghazra/github-readme-stats)
 
-<h3>A Quick Look at Me!</h3>
+---
+
+<h4>A Quick Look at Me!</h4>
 
 ```json
 {
