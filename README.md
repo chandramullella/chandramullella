@@ -86,7 +86,7 @@
 {
   "name": "Chandrakanth Mullella",
   "location": "Dallas, Texas",
-  "currentRole": "DevSecOps Engineer",
+  "currentRole": "Platform Engineer",
   "education": [
     "Masters in Information Technology",
     "Masters in Business Administration"
