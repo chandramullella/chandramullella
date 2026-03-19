@@ -80,13 +80,13 @@
 
 ---
 
-<h4> My Kodekloud 2025 Recap!</h4>
+<h4> My Kodekloud 2025 Recap! </h4>
 <img width="2400" height="3105" alt="KodeKloud-2025-Recap" src="https://github.com/user-attachments/assets/477a6725-6bb4-4e3e-85e7-877d5d0d3f20" />
 
 
 ---
 
-<h5> A Quick Look at Me!</h5>
+<h5> A Quick Look at Me! </h5>
 
 ```json
 {
