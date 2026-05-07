@@ -1,176 +1,26 @@
-- name: Install dependencies
-  run: |
-    pip install beautifulsoup4 playwright
-    python -m playwright install chromium
+name: Update Credly Badges
 
-- name: Generate grouped Credly badge images
-  env:
-    CREDLY_USERNAME: chandrakanth-mullella
-  run: |
-    python <<'PY'
-    import os
-    import re
-    import html
-    from bs4 import BeautifulSoup
-    from playwright.sync_api import sync_playwright
+on:
+  schedule:
+    - cron: '0 0 * * *' # daily at 00:00 UTC
+  workflow_dispatch:
 
-    username = os.environ["CREDLY_USERNAME"]
-    readme_file = "README.md"
-    badges_url = f"https://www.credly.com/users/{username}/badges"
+permissions:
+  contents: write
 
-    def normalize(text):
-        return re.sub(r"\s+", " ", html.unescape(text or "")).strip()
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
 
-    def bucket(name):
-        n = name.lower()
-        if "aws" in n:
-            return "AWS Certifications"
-        if any(x in n for x in ["cka", "ckad", "kcna", "kubernetes", "cloud native", "gitops"]):
-            return "Kubernetes & Cloud Native"
-        if "terraform" in n or "hashicorp" in n:
-            return "HashiCorp Certifications"
-        if any(x in n for x in ["python", "pcep", "machine learning"]):
-            return "Programming & ML"
-        if any(x in n for x in ["linux", "lpi"]):
-            return "Linux Certifications"
-        return "Other Certifications"
-
-    def get_page_html(url):
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            page = browser.new_page()
-            page.goto(url, wait_until="networkidle", timeout=60000)
-            html_text = page.content()
-            browser.close()
-            return html_text
-
-    def get_badge_links():
-        html_text = get_page_html(badges_url)
-        soup = BeautifulSoup(html_text, "html.parser")
-        links = set()
-
-        for a in soup.find_all("a", href=True):
-            href = a["href"].strip()
-            if re.search(r"^/badges/[a-z0-9\\-]+$", href, re.I):
-                links.add("https://www.credly.com" + href)
-            elif re.search(r"^https://www\\.credly\\.com/badges/[a-z0-9\\-]+$", href, re.I):
-                links.add(href)
-
-        if not links:
-            links.update(re.findall(r'https://www\\.credly\\.com/badges/[a-z0-9\\-]+', html_text, re.I))
-            for m in re.findall(r'"/badges/[a-z0-9\\-]+"', html_text, re.I):
-                links.add("https://www.credly.com" + m.strip('"'))
-
-        if not links:
-            raise RuntimeError("No badge links found after rendering the Credly badges page.")
-
-        return sorted(links)
-
-    def parse_badge_page(url):
-        html_text = get_page_html(url)
-        soup = BeautifulSoup(html_text, "html.parser")
-
-        name = None
-        image = None
-
-        og_title = soup.find("meta", attrs={"property": "og:title"})
-        if og_title and og_title.get("content"):
-            name = normalize(og_title["content"]).split("|")[0].strip()
-
-        if not name and soup.title and soup.title.text:
-            name = normalize(soup.title.text).split("|")[0].strip()
-
-        h1 = soup.find("h1")
-        if not name and h1:
-            name = normalize(h1.get_text(" ", strip=True))
-
-        og_image = soup.find("meta", attrs={"property": "og:image"})
-        if og_image and og_image.get("content"):
-            image = og_image["content"].strip()
-
-        if not name:
-            return None
-
-        return {"name": name, "url": url, "image": image}
-
-    badge_links = get_badge_links()
-
-    badges = []
-    for link in badge_links:
-        try:
-            parsed = parse_badge_page(link)
-            if parsed:
-                badges.append(parsed)
-        except Exception:
-            pass
-
-    if not badges:
-        raise RuntimeError("Badge links were found, but no badge pages could be parsed.")
-
-    dedup = {}
-    for badge in badges:
-        dedup[badge["name"]] = badge
-
-    badges = sorted(dedup.values(), key=lambda x: x["name"].lower())
-
-    grouped = {}
-    for badge in badges:
-        grouped.setdefault(bucket(badge["name"]), []).append(badge)
-
-    section_order = [
-        "AWS Certifications",
-        "Kubernetes & Cloud Native",
-        "HashiCorp Certifications",
-        "Programming & ML",
-        "Linux Certifications",
-        "Other Certifications",
-    ]
-
-    lines = []
-    lines.append("## 🏅 Certifications & Badges")
-    lines.append("")
-    lines.append("Showcase of my verified professional certifications and digital badges.")
-    lines.append("")
-    lines.append(f"[Credly Profile](https://www.credly.com/users/{username}/badges)")
-    lines.append("")
-
-    for section in section_order:
-        items = grouped.get(section, [])
-        if not items:
-            continue
-
-        lines.append(f"### {section}")
-        lines.append("")
-        lines.append('<p align="left">')
-
-        for badge in items:
-            if badge.get("image"):
-                lines.append(
-                    f'  <a href="{badge["url"]}">'
-                    f'<img src="{badge["image"]}" alt="{badge["name"]}" width="110" height="110" style="margin: 6px;" /></a>'
-                )
-            else:
-                lines.append(f'  <a href="{badge["url"]}">{badge["name"]}</a>')
-
-        lines.append("</p>")
-        lines.append("")
-
-    generated = "\n".join(lines).rstrip() + "\n"
-
-    start_marker = "<!-- CREDLY_BADGES:START -->"
-    end_marker = "<!-- CREDLY_BADGES:END -->"
-
-    with open(readme_file, "r", encoding="utf-8") as f:
-        readme = f.read()
-
-    block = f"{start_marker}\n{generated}{end_marker}"
-    pattern = re.compile(re.escape(start_marker) + r".*?" + re.escape(end_marker), re.S)
-
-    if pattern.search(readme):
-        updated = pattern.sub(block, readme)
-    else:
-        updated = readme.rstrip() + "\n\n" + block + "\n"
-
-    with open(readme_file, "w", encoding="utf-8") as f:
-        f.write(updated)
-    PY
+    steps:
+      - name: Update Credly Badges
+        uses: jd-35656/readme-credly-badges@v1
+        with:
+          credly_username: 'chandrakanth-mullella'
+          badge_size: '85x85'
+          badge_sort_by: 'issued'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_repo: ${{ github.repository }}
+          github_branch: 'main'
+          readme_file: 'README.md'
+          commit_message: 'Updated README with Credly badges'
