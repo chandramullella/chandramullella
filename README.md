@@ -27,6 +27,20 @@
 <small><em>Auto-updated via GitHub Actions. Click badges to visit Credly for certificate verification.</em></small>
 
 <!-- START CREDLY BADGES -->
+[![CKAD: Certified Kubernetes Application Developer](https://images.credly.com/size/85x85/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob)](https://www.credly.com/badges/0fbb1edc-f42c-40da-9fe2-8069f9d9d0cc)
+[![KCNA: Kubernetes and Cloud Native Associate](https://images.credly.com/size/85x85/images/f28f1d88-428a-47f6-95b5-7da1dd6c1000/KCNA_badge.png)](https://www.credly.com/badges/d318f263-3f09-4541-81f2-969c83aa1d8d)
+[![Machine Learning Fundamentals Micro-Credential](https://images.credly.com/size/85x85/images/70b7f41e-7711-426d-8e87-e6a7b14d3790/image.png)](https://www.credly.com/badges/0518ee31-c847-4fea-94ba-3f0ccf7cd5e1)
+[![HashiCorp Certified: Terraform Associate (003)](https://images.credly.com/size/85x85/images/0dc62494-dc94-469a-83af-e35309f27356/blob)](https://www.credly.com/badges/b86cf8d0-2fb4-42a2-a280-2b1adf93a0c7)
+[![CKA: Certified Kubernetes Administrator](https://images.credly.com/size/85x85/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png)](https://www.credly.com/badges/e89b8453-9e75-4fec-83f3-341533bfdaa4)
+[![AWS Cloud Quest: Cloud Practitioner - Training Badge](https://images.credly.com/size/85x85/images/30816e43-2550-4e1c-be22-3f03c5573bb9/blob)](https://www.credly.com/badges/a25f125f-cd9f-4b12-99c9-6556d9fb01b4)
+[![GitOps Fundamentals](https://images.credly.com/size/85x85/images/fbd71e9c-07f7-4a8b-a874-2bf5001a6dbf/blob)](https://www.credly.com/badges/147fbc57-8971-4ff7-8f27-0e9d6f2eaa70)
+[![AWS Certified Cloud Practitioner](https://images.credly.com/size/85x85/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)](https://www.credly.com/badges/d3b41e2b-016b-4141-a98e-d99b929e4fec)
+[![HashiCorp Certified: Terraform Associate (002)](https://images.credly.com/size/85x85/images/cd038261-9d1c-4792-bc62-3a3b5bda175c/blob)](https://www.credly.com/badges/eadf5656-0aa2-432a-afda-ae86830b7c41)
+[![[PCEP-30-01] PCEP – Certified Entry-Level Python Programmer](https://images.credly.com/size/85x85/images/d8017c77-3cc0-4fdf-8e17-62e50632812e/bronze_1_small.png)](https://www.credly.com/badges/73f51381-2a27-41a5-8e2d-20af06d207a0)
+[![AWS Certified Cloud Practitioner](https://images.credly.com/size/85x85/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)](https://www.credly.com/badges/b29b2882-3174-4d0a-921a-87b3e40d0c16)
+[![AWS Certified SysOps Administrator – Associate](https://images.credly.com/size/85x85/images/f0d3fbb9-bfa7-4017-9989-7bde8eaf42b1/image.png)](https://www.credly.com/badges/878da360-af53-4147-867e-aab56190ade2)
+[![Linux Essentials Certificate](https://images.credly.com/size/85x85/images/1d36cb36-20fc-4961-8d70-6307c015d1aa/blob)](https://www.credly.com/badges/8376241c-4b0a-45d9-990d-45866752c1f8)
+[![AWS Certified Solutions Architect – Associate](https://images.credly.com/size/85x85/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png)](https://www.credly.com/badges/d01e8711-b967-4196-b14f-6b26b9029d0c)
 <!-- END CREDLY BADGES -->
 
 ---
