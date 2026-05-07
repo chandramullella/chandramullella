@@ -26,8 +26,8 @@
 
 <small><em>Auto-updated via GitHub Actions. Click badges to visit Credly for certificate verification.</em></small>
 
-<!--START_SECTION:badges-->
-<!--END_SECTION:badges-->
+<!-- START CREDLY BADGES -->
+<!-- END CREDLY BADGES -->
 
 ---
 
