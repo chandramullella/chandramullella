@@ -17,7 +17,7 @@ jobs:
         uses: jd-35656/readme-credly-badges@v1
         with:
           credly_username: 'chandrakanth-mullella'
-          badge_size: '150x150'
+          badge_size: '100x100'
           badge_sort_by: 'issued'
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_repo: ${{ github.repository }}
