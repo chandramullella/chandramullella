@@ -17,10 +17,6 @@
 <h1>🏅 Certifications & Badges</h1>
 
 <p>
-  Open my Credly profile <a href="https://www.credly.com/users/chandrakanth-mullella" target="_blank">👉</a>
-</p>
-
-<p>
   <a href="https://www.credly.com/users/chandrakanth-mullella" target="_blank">
     <img src="https://img.shields.io/badge/Credly-View%20My%20Profile-orange?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Profile" />
   </a>
