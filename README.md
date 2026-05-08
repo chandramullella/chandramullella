@@ -16,7 +16,9 @@
 
 <h1>🏅 Certifications & Badges</h1>
 
-<p>Open my Credly profile.</p>
+<p>
+  Open my Credly profile <a href="https://www.credly.com/users/chandrakanth-mullella" target="_blank">👉</a>
+</p>
 
 <p>
   <a href="https://www.credly.com/users/chandrakanth-mullella" target="_blank">
