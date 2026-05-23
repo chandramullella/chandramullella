@@ -1,0 +1,18 @@
+All online verifications
+Kaggle -> https://www.kaggle.com/chandrakanthmullella
+w3schools -> https://www.w3profile.com/chandramullella/
+leetcode -> https://leetcode.com/u/chandramullella/
+kodekloud -> 
+Linkedin -> https://www.linkedin.com/in/chandramullella
+github -> https://github.com/chandramullella
+credly -> https://www.credly.com/users/chandrakanth-mullella/badges#credly
+X -> https://x.com/CMullella
+exercism ->
+Medium -> https://medium.com/@chandramullella
+AWS Skill builder -> https://skillsprofile.skillbuilder.aws/user/chandramullella/cloudquest
+Azure Microsoft Learn -> https://learn.microsoft.com/en-us/users/chandrakanthmullella-9183/
+Google Skills -> https://www.skills.google/public_profiles/edd810a9-e0e4-48bb-96cf-a97199576b42
+
+
+Linkedin learning has publcly sharable links check if we can create a gh actions workflow to preview certificates. 
+
