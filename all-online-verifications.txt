@@ -14,5 +14,4 @@ Azure Microsoft Learn -> https://learn.microsoft.com/en-us/users/chandrakanthmul
 Google Skills -> https://www.skills.google/public_profiles/edd810a9-e0e4-48bb-96cf-a97199576b42
 
 
-Linkedin learning has publcly sharable links check if we can create a gh actions workflow to preview certificates. 
 
