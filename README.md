@@ -25,6 +25,7 @@
 <small><em>Auto-updated via GitHub Actions. Click badges to visit Credly for certificate verification.</em></small>
 
 <!-- START CREDLY BADGES -->
+[![Associate Cloud Engineer Certification](https://images.credly.com/size/85x85/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png)](https://www.credly.com/badges/1b468b1c-e400-4659-bca0-8419e680ced6)
 [![AWS Knowledge: Networking Core - Training Badge](https://images.credly.com/size/85x85/images/e1c202b1-bca1-469a-9149-127b4fe891d7/blob)](https://www.credly.com/badges/4fb0fdc3-9cbe-4021-af75-b46929b627fc)
 [![CKAD: Certified Kubernetes Application Developer](https://images.credly.com/size/85x85/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob)](https://www.credly.com/badges/0fbb1edc-f42c-40da-9fe2-8069f9d9d0cc)
 [![KCNA: Kubernetes and Cloud Native Associate](https://images.credly.com/size/85x85/images/f28f1d88-428a-47f6-95b5-7da1dd6c1000/KCNA_badge.png)](https://www.credly.com/badges/d318f263-3f09-4541-81f2-969c83aa1d8d)
