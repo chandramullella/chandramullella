@@ -5,12 +5,12 @@
 ---
 
 <p align="center">
-  DevOps/Site Reliability Engineer | Platform Engineering | AWS Cloud Engineer | Kubernetes Enthusiast | Infrastructure Automation
+  DevOps/Site Reliability Engineer | Platform Engineering | AWS/Azure/GCP Cloud Engineer | Kubernetes Enthusiast | Infrastructure Automation
 </p>
 
 ---
 
-<p>I design and automate reliable cloud infrastructure, CI/CD pipelines, and scalable platform solutions using AWS, Terraform, Kubernetes, and modern DevOps practices.</p>
+<p>I design and automate reliable cloud infrastructure, CI/CD pipelines, and scalable platform solutions using AWS/Azure/GCP, Terraform, Kubernetes, and modern DevOps practices.</p>
 
 ---
 
