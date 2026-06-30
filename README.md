@@ -36,7 +36,7 @@
 [![CKA: Certified Kubernetes Administrator](https://images.credly.com/size/85x85/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png)](https://www.credly.com/badges/e89b8453-9e75-4fec-83f3-341533bfdaa4)
 [![AWS Cloud Quest: Cloud Practitioner - Training Badge](https://images.credly.com/size/85x85/images/30816e43-2550-4e1c-be22-3f03c5573bb9/blob)](https://www.credly.com/badges/a25f125f-cd9f-4b12-99c9-6556d9fb01b4)
 [![GitOps Fundamentals](https://images.credly.com/size/85x85/images/fbd71e9c-07f7-4a8b-a874-2bf5001a6dbf/blob)](https://www.credly.com/badges/147fbc57-8971-4ff7-8f27-0e9d6f2eaa70)
-[![AWS Certified Cloud Practitioner](https://images.credly.com/size/85x85/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)](https://www.credly.com/badges/d3b41e2b-016b-4141-a98e-d99b929e4fec)
+[![AWS Certified Cloud Practitioner](https://images.credly.com/size/85x85/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)](https://www.credly.com/badges/e71ddb33-0471-424b-b1e5-1f409470db49)
 [![HashiCorp Certified: Terraform Associate (002)](https://images.credly.com/size/85x85/images/cd038261-9d1c-4792-bc62-3a3b5bda175c/blob)](https://www.credly.com/badges/eadf5656-0aa2-432a-afda-ae86830b7c41)
 [![[PCEP-30-01] PCEP – Certified Entry-Level Python Programmer](https://images.credly.com/size/85x85/images/d8017c77-3cc0-4fdf-8e17-62e50632812e/bronze_1_small.png)](https://www.credly.com/badges/73f51381-2a27-41a5-8e2d-20af06d207a0)
 [![AWS Certified Cloud Practitioner](https://images.credly.com/size/85x85/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)](https://www.credly.com/badges/b29b2882-3174-4d0a-921a-87b3e40d0c16)
