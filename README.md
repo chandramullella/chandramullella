@@ -25,6 +25,7 @@
 <small><em>Auto-updated via GitHub Actions. Click badges to visit Credly for certificate verification.</em></small>
 
 <!-- START CREDLY BADGES -->
+[![KCSA: Kubernetes and Cloud Native Security Associate](https://images.credly.com/size/85x85/images/67dd8a95-8876-4051-9cb9-3d97c204f85a/image.png)](https://www.credly.com/badges/7b89c44d-d938-48a8-b630-d214c3ffc8b4)
 [![AWS Knowledge: Security Champion - Training Badge](https://images.credly.com/size/85x85/images/478cdcb9-9b92-4893-9c95-617ad0f28257/blob)](https://www.credly.com/badges/29f28f45-e12c-4afe-80c3-efd33f8e64e4)
 [![AWS Knowledge: Amazon EKS - Training Badge](https://images.credly.com/size/85x85/images/f5efafe6-ebdc-485c-9ffa-3a05533e634b/blob)](https://www.credly.com/badges/7c737cc6-bc0a-465a-b3ca-f1e70286c411)
 [![Associate Cloud Engineer Certification](https://images.credly.com/size/85x85/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png)](https://www.credly.com/badges/1b468b1c-e400-4659-bca0-8419e680ced6)
