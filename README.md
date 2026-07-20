@@ -5,7 +5,7 @@
 ---
 
 <p align="center">
-  DevOps/Site Reliability Engineer | Platform Engineering | AWS/Azure/GCP Cloud Engineer | Kubernetes Enthusiast | Infrastructure Automation
+  DevOps/Site Reliability Engineer/Platform Engineer | AWS/Azure/GCP Cloud Engineer | Kubernetes Enthusiast | Infrastructure Automation
 </p>
 
 ---
@@ -93,6 +93,8 @@
 ### AI Tools
 ![Cursor AI](https://img.shields.io/badge/Cursor%20AI-111111?style=for-the-badge&logoColor=white)
 ![Microsoft Copilot](https://img.shields.io/badge/Microsoft%20Copilot-000000?style=for-the-badge&logo=microsoft&logoColor=white)
+![Anthropic Claude](https://img.shields.io/badge/Anthropic%20Claude-2A2F34?style=for-the-badge&logo=anthropic&logoColor=white)
+
 
 ---
 
