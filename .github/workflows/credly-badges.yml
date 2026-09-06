@@ -2,25 +2,45 @@ name: Update Credly Badges
 
 on:
   schedule:
-    - cron: '0 0 * * *' # daily at 00:00 UTC
-  workflow_dispatch:
+    - cron: '0 0 * * *'   # daily at 00:00 UTC
+  workflow_dispatch:      # lets you trigger it manually from the Actions tab
 
 permissions:
   contents: write
 
+concurrency:
+  group: credly-badges
+  cancel-in-progress: true
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Update Credly Badges
-        uses: jd-35656/readme-credly-badges@v1
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          credly_username: 'chandrakanth-mullella'
-          badge_size: '85x85'
-          badge_sort_by: 'issued'
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_repo: ${{ github.repository }}
-          github_branch: 'main'
-          readme_file: 'README.md'
-          commit_message: 'Updated README with Credly badges'
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch badges and update categorized sections
+        id: update
+        env:
+          CREDLY_USERNAME: chandrakanth-mullella
+          BADGE_SIZE: '85x85'
+          BADGE_SORT_BY: issued
+          README_FILE: README.md
+        run: python scripts/update_certifications.py
+
+      - name: Commit and push if changed
+        if: steps.update.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Auto-update certification badges from Credly"
+          git push
