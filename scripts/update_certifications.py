@@ -42,10 +42,24 @@ END = "<!-- END CREDLY BADGES -->"
 # (Section title, emoji, [regex patterns matched against the lowercased badge name])
 CATEGORIES: list[tuple[str, str, list[str]]] = [
     ("Amazon (AWS)", "☁️", [r"\baws\b", r"\bamazon\b"]),
+    ("Microsoft Azure", "🔷", [r"\bazure\b", r"microsoft certified"]),
     ("Kubernetes", "⎈", [r"kubernetes", r"\bcka\b", r"ckad", r"\bcks\b", r"kcna", r"kcsa", r"gitops"]),
     ("Google Cloud (GCP)", "🌐", [r"google cloud", r"\bgcp\b", r"cloud engineer", r"cloud architect", r"cloud digital leader"]),
 ]
 OTHER_TITLE, OTHER_EMOJI = "Other", "📚"
+
+# Badges that don't live on Credly (e.g. Microsoft Learn credentials) go here.
+# They're merged with the Credly feed on every run, so they survive automated
+# updates and get sorted into the right category just like Credly badges do.
+# Add a new entry any time you earn a certification outside Credly.
+STATIC_BADGES: list[dict] = [
+    {
+        "name": "Microsoft Certified: Azure Fundamentals",
+        "url": "https://learn.microsoft.com/en-us/users/chandrakanthmullella-9183/credentials/88cee5dd550fb042",
+        "image_url": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg",
+        "sort_key": "2026-05-23",  # earned date (YYYY-MM-DD), used for newest-first ordering
+    },
+]
 
 
 def fetch_badges(username: str) -> list[dict]:
@@ -145,8 +159,13 @@ def main() -> None:
         print("ERROR: CREDLY_USERNAME environment variable is required.", file=sys.stderr)
         sys.exit(1)
 
-    badges = fetch_badges(CREDLY_USERNAME)
-    print(f"Fetched {len(badges)} badge(s) from Credly for '{CREDLY_USERNAME}'.")
+    credly_badges = fetch_badges(CREDLY_USERNAME)
+    print(f"Fetched {len(credly_badges)} badge(s) from Credly for '{CREDLY_USERNAME}'.")
+    if STATIC_BADGES:
+        print(f"Adding {len(STATIC_BADGES)} manually-listed badge(s) (non-Credly, e.g. Azure).")
+
+    badges = credly_badges + STATIC_BADGES
+    badges.sort(key=lambda b: b.get("sort_key", ""), reverse=True)
 
     buckets = categorize(badges)
     for title, items in buckets.items():
